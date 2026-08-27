@@ -1,0 +1,45 @@
+[
+  {
+    "question": "What is the refund policy for enterprise annual subscriptions?",
+    "expected_source": "refund_policy.md",
+    "expected_keywords": [
+      "30",
+      "full refund",
+      "non-refundable"
+    ],
+    "department": "billing"
+  },
+  {
+    "question": "What authentication methods are supported for enterprise SSO?",
+    "expected_source": "security.md",
+    "expected_keywords": [
+      "SAML",
+      "OpenID Connect"
+    ],
+    "department": "security"
+  },
+  {
+    "question": "What is the severity-1 response target?",
+    "expected_source": "support.md",
+    "expected_keywords": [
+      "30 minutes"
+    ],
+    "department": "support"
+  },
+  {
+    "question": "How quickly do we respond to a production outage affecting most users?",
+    "expected_source": "support.md",
+    "expected_keywords": [
+      "30 minutes"
+    ],
+    "department": "support"
+  },
+  {
+    "question": "Can enterprise customers use OIDC for SSO?",
+    "expected_source": "security.md",
+    "expected_keywords": [
+      "OpenID Connect"
+    ],
+    "department": "security"
+  }
+]
